@@ -53,7 +53,6 @@ main{
     outline: 0;
   }
 
-  
 
   .contact-info {
     background: #212529;
@@ -79,6 +78,16 @@ main{
   }
 
 
+  .botones{
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .botones button{
+    width: 200px;
+    margin: 0 auto;
+  }
+
 
   
 
@@ -89,31 +98,60 @@ footer{
 }
 
 /* ******************* Media Queries *************************************/
-
-@media screen and (max-width: 950px){
-    /* MAIN */
-    .envoltura{
-      width: 100%;
-      margin: 0 auto;
-  }
-    
+/* Not aplica */
+@media screen and (max-width: 1400px){
 }
 
-@media screen and (max-width: 413px){
-    /* MAIN */
+/* No aplica */
+@media (min-width: 1200px) and (max-width: 1399px) {
+  /* MAIN */
+  .envoltura{
+    width: 90%;
+    margin: 0 auto;
+  }
+}
 
+
+@media (min-width: 992px) and (max-width: 1199px){
+    /* MAIN */
     .envoltura{
       width: 95%;
       margin: 0 auto;
   }
-
-    .botones{
-        display: flex;
-        flex-direction: column;
-    }
-
-    .boton-1{
-        margin-bottom: 1rem;
-    }
-
 }
+
+@media (min-width: 768px) and (max-width: 991px){
+  /* MAIN */
+  .envoltura{
+    width: 100%;
+    margin: 0 auto;
+  }
+  .botones button{
+    width: 150px;
+    margin: 0 auto;
+  }
+}
+
+@media (min-width: 576px) and (max-width: 767px){
+  /* MAIN */
+  .envoltura{
+    width: 100%;
+    margin: 0 auto;
+  }
+}
+
+@media (max-width: 575px){
+
+    /* MAIN */
+  .envoltura{
+    width: 95%;
+    margin: 0 auto;
+  }
+
+  .botones button{
+    width: 100px;
+    margin: 0 auto;
+  }
+}
+
+
