@@ -1,0 +1,120 @@
+
+.logo{
+    background: #212529;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo h5{
+    color: #fff;
+}
+
+
+/* ************** MAIN ******************** */
+main{
+    /* background: #424242; */
+    background: #212529;
+}
+
+.articulo{
+    text-align: justify;
+    font-size: 20px;;
+}
+
+.titulo-grupos{
+    padding-top: 1rem;
+}
+
+.titulo-grupos img{
+    width: 150px;
+}
+
+.titulo-grupos h1{
+    text-decoration: underline overline;
+}
+
+.banda{
+    padding: 25px 0;
+}
+
+.banda img{
+    width: 100%;
+    height: 300px;
+}
+
+.banda h5{
+    color: #d9534f;
+    text-decoration: underline overline;
+    font-size: 30px;
+}
+
+/* ************ Texto encima ****************/
+.banda{
+    position: relative;
+    display: inline-block;
+    text-align: center;
+}
+
+.texto-encima {
+    position: absolute;
+    top: 56%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    background-color: rgba(0, 0, 0, 0.7);
+    font-weight: 100;
+  }
+/* Fin Texto Encima */
+
+/* Animación - Hover */
+.banda .texto-encima {
+    visibility: hidden;
+  }
+
+  .banda:hover > .texto-encima {
+    visibility: visible;
+  }
+/* Fin de animacion - Hover */
+
+
+
+
+
+
+  
+
+/* ************************* FOOTER ************************* */
+footer{
+    /* background: #424242; */
+    background: #212529; 
+}
+
+/* ******************* Media Queries *************************************/
+
+@media screen and (max-width: 850px){
+    /* MAIN */
+    .texto-encima {
+        width: auto;
+      }
+
+    #galeria img{
+        height: 300px;
+    }
+
+    #album-dia .album img{
+        width: 250px;
+    }
+
+    .banda .texto-encima {
+        visibility: visible;
+        /* font-size: 15px; */
+      }
+}
+
+@media screen and (max-width: 360px){
+    /* MAIN */
+
+    
+
+}

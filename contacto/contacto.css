@@ -1,0 +1,110 @@
+
+.logo{
+    background: #212529;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo h5{
+    color: #fff;
+}
+
+
+/* ************** MAIN ******************** */
+main{
+    /* background: #424242; */
+    background: #212529;
+}
+
+
+.envoltura{
+    width: 70%;
+    margin: 0 auto;
+    box-shadow: 0 0 20px 0 rgba(182, 181, 122, 0.726);
+}
+
+.envoltura > * {
+    padding: 1em;
+}
+
+.formato-contacto {
+    background: rgba(67, 68, 30, 0.726);
+    /* padding: 2rem; */
+}
+
+.form-control{
+    background-color: none;
+}
+
+.formato-contacto form button {
+    background: #b70e21;
+    color: #fff;
+    border: 0;
+    text-transform: uppercase;
+    padding: 1em;
+  }
+
+  .formato-contacto form button:hover,
+  .formato-contacto form button:focus {
+    background: #d63031;
+    color: rgb(44, 44, 26);
+    transition: background-color 1s ease-out;
+    outline: 0;
+  }
+
+  
+
+  .contact-info {
+    background: #212529;
+  }
+  
+  .contact-info * {
+    text-align: center;
+    margin: 0 0 0.5rem 0;
+  }
+  
+  .contact-info ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .contact-info ul {
+    padding-top: 2em;
+    font-size: 12px;
+  }
+  
+  .contact-info p {
+    padding-top: 2em;
+  }
+
+
+
+  
+
+/* ************************* FOOTER ************************* */
+footer{
+    /* background: #424242; */
+    background: #212529; 
+}
+
+/* ******************* Media Queries *************************************/
+
+@media screen and (max-width: 850px){
+    /* MAIN */
+    
+}
+
+@media screen and (max-width: 413px){
+    /* MAIN */
+
+    .botones{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .boton-1{
+        margin-bottom: 1rem;
+    }
+
+}

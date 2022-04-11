@@ -1,0 +1,123 @@
+
+.logo{
+    background: #212529;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo h5{
+    color: #fff;
+}
+
+
+/* ************** MAIN ******************** */
+main{
+    /* background: #424242; */
+    background: #212529;
+}
+
+.historia-disco{
+    text-align: justify;
+    font-size: 20px;;
+}
+
+.contenedor-disco h2{
+    text-decoration: underline overline;
+}
+
+.contenedor-disco{
+    width: 90%;
+    margin: 0 auto;
+}
+
+.imagen-disco{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.imagen-disco img{
+    height: 400px;
+    border-radius: 0.5em;
+}
+
+.titulo-main h1{
+    text-decoration: underline overline;
+    font-size: 45px;
+    padding-top: 1rem;;
+}
+
+.titulo-exitos h1{
+    text-decoration: underline overline;
+    font-size: 45px;
+}
+
+
+.titulo-video{
+    text-decoration: underline overline;
+    font-size: 25px;
+}
+
+.video1{
+    padding-top: 2rem;
+}
+
+.video2{
+    padding: 4rem 0;
+}
+
+
+
+
+
+  
+
+/* ************************* FOOTER ************************* */
+footer{
+    /* background: #424242; */
+    background: #212529; 
+}
+
+/* ******************* Media Queries *************************************/
+
+@media screen and (max-width: 850px) and (min-width: 500px){
+    /* MAIN */
+    .contenedor-disco{
+        width: 100%;
+        margin: 0 auto;
+        padding-bottom: 2rem;
+    }    
+
+    .historia-disco{
+        text-align: justify;
+        font-size: 15px;;
+    }
+
+    .imagen-disco img{
+        height: 300px;
+    }
+
+    .video2{
+        padding: 3rem 0;
+    }
+}
+
+@media screen and (max-width: 499px){
+    /* MAIN */
+
+    .contenedor-disco{
+        width: 90%;
+        margin: 0 auto;
+        padding-bottom: 2rem;
+    } 
+
+    .imagen-disco img{
+        height: 250px;
+    }
+
+    .video2{
+        padding: 3rem 0;
+    }
+
+}

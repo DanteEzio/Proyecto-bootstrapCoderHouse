@@ -1,0 +1,96 @@
+
+.logo{
+    background: #212529;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo h5{
+    color: #fff;
+}
+
+
+/* ************** MAIN ******************** */
+main{
+    /* background: #424242; */
+    background: #212529;
+}
+
+#tabla .titulo-main h1{
+    color: #FFFFF7;
+    text-decoration: underline overline;
+}
+
+#tabla .titulo-main img{
+    width: 200px;
+}
+
+#tabla tr{
+    font-size: 25px;
+    font-weight: 100;
+}
+
+
+
+/* Personalización boton */
+.boton button {
+    background: none;
+    color: #fff;
+    border: 1px solid;
+    text-transform: uppercase;
+    padding: 1px 35px;;
+    font-size: 20px;
+    font-weight: 100;
+  }
+  
+  .boton button:hover,
+  .boton button:hover:focus {
+    background: rgba(67, 68, 30, 0.726);
+    transition: background-color 1s ease-out;
+    outline: 0;
+  }
+/* Fin de la personalización */
+
+
+
+
+
+
+  
+
+/* ************************* FOOTER ************************* */
+footer{
+    /* background: #424242; */
+    background: #212529; 
+}
+
+/* ******************* Media Queries *************************************/
+
+@media screen and (max-width: 850px){
+    /* MAIN */
+    .texto-encima {
+        width: auto;
+      }
+
+    #galeria img{
+        height: 300px;
+    }
+
+    #album-dia .album img{
+        width: 250px;
+    }
+}
+
+@media screen and (max-width: 360px){
+    /* MAIN */
+
+    #galeria img{
+        height: 250px;
+    }
+
+    #album-dia .album img{
+        width: 250px;
+    }
+
+}
