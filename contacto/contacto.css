@@ -90,13 +90,22 @@ footer{
 
 /* ******************* Media Queries *************************************/
 
-@media screen and (max-width: 850px){
+@media screen and (max-width: 950px){
     /* MAIN */
+    .envoltura{
+      width: 100%;
+      margin: 0 auto;
+  }
     
 }
 
 @media screen and (max-width: 413px){
     /* MAIN */
+
+    .envoltura{
+      width: 95%;
+      margin: 0 auto;
+  }
 
     .botones{
         display: flex;
