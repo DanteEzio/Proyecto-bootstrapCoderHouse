@@ -26,11 +26,10 @@ main{
     width: 150px;
 }
 
-#tabla tr{
+#tabla .interior{
     font-size: 25px;
     font-weight: 100;
 }
-
 
 
 /* Personalización boton */
@@ -39,7 +38,7 @@ main{
     color: #fff;
     border: 1px solid;
     text-transform: uppercase;
-    padding: 1px 35px;;
+    padding: 1px 35px;
     font-size: 20px;
     font-weight: 100;
   }
@@ -53,12 +52,6 @@ main{
 /* Fin de la personalización */
 
 
-
-
-
-
-  
-
 /* ************************* FOOTER ************************* */
 footer{
     /* background: #424242; */
@@ -66,31 +59,63 @@ footer{
 }
 
 /* ******************* Media Queries *************************************/
+/* Not aplica */
+@media screen and (max-width: 1400px){
+}
 
-@media screen and (max-width: 850px){
+/* No aplica */
+@media (min-width: 1200px) and (max-width: 1399px) {
+
+}
+
+/* No aplica */
+@media (min-width: 992px) and (max-width: 1199px){
+
+}
+
+@media (min-width: 768px) and (max-width: 991px){
     /* MAIN */
-    .texto-encima {
-        width: auto;
-      }
-
-    #galeria img{
-        height: 300px;
+    #tabla .interior{
+        font-size: 20px;
+    }
+    
+    .titulo-tabla{
+        font-size: 25px;
     }
 
-    #album-dia .album img{
-        width: 250px;
+    .boton button{
+        font-size: 15px;
+    }
+   
+}
+
+@media (min-width: 576px) and (max-width: 767px){
+    #tabla .interior{
+        font-size: 15px;
+    }
+    
+    .titulo-tabla{
+        text-align: center;
+    }
+
+    .boton button{
+        font-size: 15px;
     }
 }
 
-@media screen and (max-width: 360px){
-    /* MAIN */
-
-    #galeria img{
-        height: 250px;
+@media (max-width: 575px){
+    #tabla .interior{
+        font-size: 16px;
+    }
+    
+    .titulo-tabla{
+        font-size: 18px;
     }
 
-    #album-dia .album img{
-        width: 250px;
+    .boton button{
+        /* width: 100px; */
+        font-size: 15px;
+        padding: 8px 10px;
     }
 
 }
