@@ -18,6 +18,8 @@ main{
 }
 
 .articulo{
+    width: 80%;
+    margin: 0 auto;
     text-align: justify;
     font-size: 20px;;
 }
@@ -77,13 +79,6 @@ main{
   }
 /* Fin de animacion - Hover */
 
-
-
-
-
-
-  
-
 /* ************************* FOOTER ************************* */
 footer{
     /* background: #424242; */
@@ -91,30 +86,60 @@ footer{
 }
 
 /* ******************* Media Queries *************************************/
+/* Not aplica */
+@media screen and (max-width: 1400px){
+}
 
-@media screen and (max-width: 850px){
-    /* MAIN */
-    .texto-encima {
-        width: auto;
-      }
+@media (min-width: 1200px) and (max-width: 1399px) {
+    .banda img{
+        width: 270px;
+        height: 250px;
+    }
+}
 
-    #galeria img{
+/* No aplica */
+@media (min-width: 992px) and (max-width: 1199px){
+    .banda img{
+        width: 300px;
         height: 300px;
     }
+}
 
-    #album-dia .album img{
-        width: 250px;
+@media (min-width: 768px) and (max-width: 991px){
+    .banda .texto-encima {
+        visibility: visible;
+        font-size: 18px;
+      }
+}
+
+@media (min-width: 576px) and (max-width: 767px){
+    .banda img{
+        width: 400px;
+        height: 350px;
     }
 
     .banda .texto-encima {
         visibility: visible;
-        /* font-size: 15px; */
+        font-size: 20px;
       }
 }
 
-@media screen and (max-width: 360px){
-    /* MAIN */
 
-    
+@media (max-width: 575px){
+    .articulo{
+        width: 90%;
+        margin: 0 auto;
+        text-align: justify;
+        font-size: 20px;
+    }
 
+    .banda img{
+        width: 95%;
+        /* height: 250px; */
+    }
+
+    .banda .texto-encima {
+        visibility: visible;
+        font-size: 20px;
+      }
 }
