@@ -104,44 +104,45 @@ footer{
 }
 
 /* ******************* Media Queries *************************************/
+/* Not aplica */
+@media screen and (max-width: 1400px){
+}
 
-@media screen and (max-width: 850px){
-    /* NAVBAR */
-    /* .container{
-        flex-direction: row-reverse;
+@media (min-width: 1200px) and (max-width: 1399px) {
+    #galeria img{
+        height: 420px;
     }
+}
 
-    .navbar-brand h5{
-        display: none;
+@media (min-width: 992px) and (max-width: 1199px){
+    #galeria img{
+        height: 350px;
     }
+}
 
-    .navbar-icons{
-        display: none;
-    } */
-
-    /* MAIN */
-    .texto-encima {
-        width: auto;
-      }
-
+@media (min-width: 768px) and (max-width: 991px){
     #galeria img{
         height: 300px;
     }
+}
 
-    #album-dia .album img{
-        width: 250px;
+@media (min-width: 576px) and (max-width: 767px){
+    #galeria img{
+        height: 400px;
     }
 }
 
-@media screen and (max-width: 360px){
-    /* MAIN */
+@media (max-width: 575px){
 
     #galeria img{
-        height: 250px;
+        width: 95%;
+        height: 320px;
     }
 
     #album-dia .album img{
         width: 250px;
     }
-
 }
+
+
+ 
